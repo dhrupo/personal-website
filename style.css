@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+section {
+  height: 500px;
+  margin: 70px auto;
+}
+
+header {
+  height: 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  color: #363958;
+  line-height: 80px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  color: #3e3e3e;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #f46060;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.highlight {
+  color: #f46060;
+}
+
+.navbar {
+  width: fit-content;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.navbar ul li {
+  margin: 30px 20px;
+}
+
+.navbar ul li a:hover {
+  color: #ff8063;
+}
+
+.half-div {
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+}
+
+.half-div img {
+  width: 80%;
+}
+
+.half-div p {
+  margin: 30px 0px 60px 0;
+}
+
+.btn {
+  padding: 16px 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: linear-gradient(45deg, #ff8063, #f46060);
+}
+
+.btn .dl-icon {
+  width: 5%;
+  vertical-align: text-bottom;
+}
+
+.intro-section .half-div h2 {
+  font-size: 30px;
+}
+
+.box {
+  box-shadow: 1px 1px 20px #bababa;
+  border-radius: 30px;
+  height: 80%;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+.latest-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.one-third-div {
+  width: 29%;
+  margin: 0 2%;
+  float: left;
+}
+
+.one-third-div h3 {
+  margin: 8px 0;
+}
+
+.one-third-div p {
+  color: #6c6c6c;
+}
+
+.work-section {
+  background: url(images/work.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.work-section h1 {
+  font-size: 64px;
+  color: #fff;
+  padding-top: 16%;
+  padding-left: 16%;
+  float: left;
+}
+
+.work-section .btn {
+  margin-left: 34%;
+  margin-top: 17%;
+  float: left;
+}
+
+.skill-section {
+  text-align: center;
+  width: 80%;
+}
+
+.skill-section h2 {
+  margin-top: 120px;
+}
+
+.skill-bg {
+  background-color: rgb(192, 192, 192);
+  width: 100%;
+  border-radius: 20px;
+}
+
+.skill-set {
+  margin: 30px 0;
+}
+
+.skill-set p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skill {
+  background: linear-gradient(90deg, #ff8063, #f46060);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.html {
+  width: 80%;
+}
+
+.php {
+  width: 60%;
+}
+
+.js {
+  width: 70%;
+}
+
+.asp {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  color: #696871;
+}
+
+footer p {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 5px 0 20px 0;
+}
+
+footer ul li {
+  width: 4%;
+}
+
+footer img {
+  width: 80%;
+}
