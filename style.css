@@ -126,9 +126,11 @@ img {
   width: 29%;
   margin: 0 2%;
   float: left;
+  padding: 45px;
 }
 
-.one-third-div h3 {
+.one-third-div h4 {
+  font-size: 24px;
   margin: 8px 0;
 }
 
